@@ -1,4 +1,4 @@
-package com.example.primer_android;
+package com.example.registro_de_usuario;
 
 import android.content.Context;
 

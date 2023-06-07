@@ -2,13 +2,30 @@
     <string name="app_name">Formulario de Registro</string>
     <string name="form_name">Nombre (requerido)</string>
     <string name="form_lastname">Apellido(requerido)</string>
-    <string name="form_email">Email (requerido)</string>
     <string name="input_name">Ingresa tu primer nombre</string>
     <string name="input_lastname">Ingresa tu primer apellido </string>
-    <string name="input_email">ejemplo@gmail.com</string>
-    <string name="auto_input_email">correo electronico</string>
     <string name="log_form">logo form</string>
     <string name="name_btn">Ingresar</string>
+    <string name="desc_img">Imagen formulario</string>
+    <string name="auto_input_email">ingresar direción de correo</string>
+    <string name="input_mail">ejemplo@gmail.com</string>
+    <string name="form_email">Email (requerido)</string>
+    <string name="form_passw">Contraseña</string>
+    <string name="input_passw">Contraseña (requerida)</string>
+
+    // TwoActivities
+    <string name="datos_ingresados">Datos Ingresados</string>
+    <string name="nombre">Nombre:</string>
+    <string name="nombre_ingresado">Nombre ingresado: </string>
+    <string name="nombre_descripcion">Nombre usuario</string>
+    <string name="apellido">Apellido:</string>
+    <string name="apellido_ingresado">Apellido ingresado :</string>
+    <string name="email">Email:</string>
+    <string name="email_ingresado">Email ingresado: </string>
+    <string name="password">Contraseña:</string>
+    <string name="password_ingresada">Contraseña ingresada:</string>
+    <string name="btn_volver">Aceptar / Volver</string>
+
 
 
 </resources>
