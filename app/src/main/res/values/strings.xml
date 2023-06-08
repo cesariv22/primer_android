@@ -11,7 +11,7 @@
     <string name="input_mail">ejemplo@gmail.com</string>
     <string name="form_email">Email (requerido)</string>
     <string name="form_passw">Contraseña</string>
-    <string name="input_passw">Contraseña (requerida)</string>
+    <string name="input_passw">(Debe contener 8 digitos)</string>
 
     // TwoActivities
     <string name="datos_ingresados">Datos Ingresados</string>
