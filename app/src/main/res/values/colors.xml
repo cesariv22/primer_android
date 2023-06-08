@@ -2,5 +2,6 @@
 <resources>
     <color name="black">#FF000000</color>
     <color name="white">#FFFFFFFF</color>
-    <color name="fondo">#DFCCFF</color>
+    <color name="fondoApp">#00ff00</color>
+    <color name="colorText">#7700FF</color>
 </resources>

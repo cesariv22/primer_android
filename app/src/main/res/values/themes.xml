@@ -3,7 +3,22 @@
     <style name="Base.Theme.Primer_android" parent="Theme.Material3.DayNight.NoActionBar">
         <!-- Customize your light theme here. -->
         <!-- <item name="colorPrimary">@color/my_light_primary</item> -->
+
+        <!-- Acá asignamos el tema creado para los TextView-->
+        <item name="android:textViewStyle">@style/text_style</item>
+
+        <!-- Con esto cambiamos el color de fondo de la app en general-->
+        <item name="android:windowBackground">@color/fondoApp</item>
     </style>
+
+    <!-- Creamos el nuevo estilo para los TextView  -->
+    <style name="text_style" parent="Theme.Material3.DayNight.NoActionBar">
+        <item name="android:textSize">20sp</item>
+        <item name="android:textColor">@color/colorText</item>
+        <item name="android:textColorHint">@color/white</item>
+        <item name="android:background">@color/fondoApp</item>
+    </style>
+
 
     <style name="Theme.Primer_android" parent="Base.Theme.Primer_android" />
 </resources>

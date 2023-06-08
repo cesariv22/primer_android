@@ -1,7 +1,6 @@
 package com.example.registro_de_usuario;
 
 import androidx.appcompat.app.AppCompatActivity;
-
 import android.app.AlertDialog;
 import android.content.Context;
 import android.content.Intent;
@@ -9,6 +8,7 @@ import android.os.Bundle;
 import android.util.Patterns;
 import android.view.View;
 import android.widget.EditText;
+
 
 
 public class MainActivity extends AppCompatActivity {

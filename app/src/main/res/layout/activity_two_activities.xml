@@ -4,7 +4,6 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="#252424"
     tools:context=".TwoActivities">
 
     <LinearLayout
@@ -27,9 +26,8 @@
             android:layout_height="wrap_content"
             android:layout_marginTop="20sp"
             android:text="@string/datos_ingresados"
-            android:textAlignment="center"
-            android:textColor="#FFFFFF"
-            android:textSize="24sp" />
+            android:textAlignment="center" />
+
 
         <TextView
             android:id="@+id/textView11"
@@ -37,9 +35,7 @@
             android:layout_height="wrap_content"
             android:layout_marginTop="50dp"
             android:ems="10"
-            android:text="@string/nombre"
-            android:textColor="@color/white"
-            android:textSize="18sp" />
+            android:text="@string/nombre" />
 
         <TextView
             android:id="@+id/get_nombre"
@@ -48,34 +44,26 @@
             android:contextClickable="false"
             android:ems="10"
             android:isScrollContainer="false"
-            android:text="@string/nombre_ingresado"
-            android:textColor="@color/white"
-            android:textSize="20sp" />
+            android:text="@string/nombre_ingresado"/>
 
         <TextView
             android:id="@+id/textView12"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="@string/apellido"
-            android:textColor="@color/white"
-            android:textSize="18sp" />
+            android:text="@string/apellido" />
 
         <TextView
             android:id="@+id/get_apellido"
             android:layout_width="wrap_content"
             android:layout_height="50dp"
             android:ems="10"
-            android:text="@string/apellido_ingresado"
-            android:textColor="@color/white"
-            android:textSize="20sp" />
+            android:text="@string/apellido_ingresado" />
 
         <TextView
             android:id="@+id/textView13"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="@string/email"
-            android:textColor="@color/white"
-            android:textSize="18sp" />
+            android:text="@string/email" />
 
         <TextView
             android:id="@+id/get_email"
@@ -84,16 +72,12 @@
             android:autofillHints="@string/email_ingresado"
             android:ems="10"
             android:hint="@string/email_ingresado"
-            android:text="@string/email_ingresado"
-            android:textColor="@color/white"
-            android:textSize="20sp" />
+            android:text="@string/email_ingresado" />
 
         <TextView
             android:id="@+id/textView14"
             style="@style/get_email"
-            android:text="@string/password"
-            android:textColor="@color/white"
-            android:textSize="18sp" />
+            android:text="@string/password" />
 
         <TextView
             android:id="@+id/get_password"
@@ -102,9 +86,7 @@
             android:autofillHints="@string/password_ingresada"
             android:ems="10"
             android:text="@string/password_ingresada"
-            android:textColor="@color/white"
-            android:textColorHint="@color/white"
-            android:textSize="20sp" />
+            android:textColorHint="@color/white" />
 
         <Button
             android:id="@+id/btnvolver"
