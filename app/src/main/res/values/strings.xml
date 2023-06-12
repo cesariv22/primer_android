@@ -26,6 +26,10 @@
     <string name="password_ingresada">Contraseña ingresada:</string>
     <string name="btn_volver">Aceptar / Volver</string>
 
+    //WelcomeActivity
+    <string name="svg_welcome">Imagen SVG bienvenida a la app. tipo celebración</string>
+    <string name="title_app">Vista de Bienvenida</string>
+    <string name="btn_bienve">Ingresar</string>
 
 
 </resources>

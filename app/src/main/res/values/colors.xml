@@ -4,4 +4,5 @@
     <color name="white">#FFFFFFFF</color>
     <color name="fondoApp">#00ff00</color>
     <color name="colorText">#7700FF</color>
+    <color name="app_theme1">#237CAB</color>
 </resources>

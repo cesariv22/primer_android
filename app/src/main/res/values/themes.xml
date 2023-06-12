@@ -8,7 +8,7 @@
         <item name="android:textViewStyle">@style/text_style</item>
 
         <!-- Con esto cambiamos el color de fondo de la app en general-->
-        <item name="android:windowBackground">@color/fondoApp</item>
+        <!--<item name="android:windowBackground">@color/fondoApp</item>-->
     </style>
 
     <!-- Creamos el nuevo estilo para los TextView  -->
@@ -18,6 +18,31 @@
         <item name="android:textColorHint">@color/white</item>
         <item name="android:background">@color/fondoApp</item>
     </style>
+
+        <style name="AppTheme1" parent="Theme.Material3.DayNight.NoActionBar">
+            <!-- propiedades del primer tema -->
+            <item name="android:textSize">35sp</item>
+            <item name="android:textColor">#3700B3</item>
+            <item name="android:textColorHint">#3700B3</item>
+            <item name="android:colorBackground">#237CAB</item>
+            <item name="android:background">#FFFFFF</item>
+            <item name="android:buttonStyle">@style/button2</item>
+        </style>
+
+        <style name="button2">
+            <item name="android:backgroundTint">#2196F3</item>
+            <item name="android:textSize">30sp</item>
+            <item name="android:textColor">#000000</item>
+        </style>
+
+        <style name="AppTheme2" parent="Theme.AppCompat.Light.DarkActionBar">
+            <!-- propiedades del segundo tema -->
+            <item name="android:textSize">20sp</item>
+            <item name="android:textColor">@color/colorText</item>
+            <item name="android:textColorHint">@color/colorText</item>
+            <item name="android:background">@color/black</item>
+        </style>
+
 
 
     <style name="Theme.Primer_android" parent="Base.Theme.Primer_android" />
