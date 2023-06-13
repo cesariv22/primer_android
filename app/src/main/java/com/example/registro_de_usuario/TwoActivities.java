@@ -1,18 +1,21 @@
 package com.example.registro_de_usuario;
 
 import androidx.appcompat.app.AppCompatActivity;
-
 import android.content.Intent;
 import android.os.Bundle;
+import android.util.Log;
 import android.view.View;
-import android.widget.TextView;
+
+import com.example.registro_de_usuario.databinding.ActivityTwoActivitiesBinding;
+
 
 public class TwoActivities extends AppCompatActivity {
-    public TextView get_nombre, get_apellido, get_email, get_password;
+    private ActivityTwoActivitiesBinding binding;
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_two_activities);
+        binding = ActivityTwoActivitiesBinding.inflate(getLayoutInflater());
+        setContentView(binding.getRoot());
 
         Intent intent = getIntent();
 
@@ -21,15 +24,11 @@ public class TwoActivities extends AppCompatActivity {
         String email = intent.getStringExtra("email");
         String password = intent.getStringExtra("password");
 
-        get_nombre = findViewById(R.id.get_nombre);
-        get_apellido = findViewById(R.id.get_apellido);
-        get_email = findViewById(R.id.get_email);
-        get_password = findViewById(R.id.get_password);
-
-        get_nombre.setText(nombre);
-        get_apellido.setText(apellido);
-        get_email.setText(email);
-        get_password.setText(password);
+        binding.getNombre.setText(nombre);
+        binding.getApellido.setText(apellido);
+        binding.getEmail.setText(email);
+        binding.getPassword.setText(password);
+        Log.d("prueba1", ""+ nombre+""+apellido+""+email);
     }
     public void volver(View view) {
             Intent intento2 = new Intent(this, MainActivity.class);

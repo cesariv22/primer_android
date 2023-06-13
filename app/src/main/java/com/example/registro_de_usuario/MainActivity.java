@@ -5,23 +5,28 @@ import android.app.AlertDialog;
 import android.content.Context;
 import android.content.Intent;
 import android.os.Bundle;
+import android.util.Log;
 import android.util.Patterns;
 import android.view.View;
 import android.widget.EditText;
-
+import com.example.registro_de_usuario.databinding.ActivityMainBinding;
 
 
 public class MainActivity extends AppCompatActivity {
+
+    private ActivityMainBinding binding;
     private EditText editnombre, editapellido, editemail, editpassw;
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_main);
+        binding = ActivityMainBinding.inflate(getLayoutInflater());
+        setContentView(binding.getRoot());
 
-        editnombre = findViewById(R.id.edit_nombre);
-        editapellido = findViewById(R.id.edit_apellido);
-        editemail = findViewById(R.id.edit_email);
-        editpassw = findViewById(R.id.edit_passw);
+        editnombre = binding.editNombre;
+        editapellido = binding.editApellido;
+        editemail = binding.editEmail;
+        editpassw = binding.editPassw;
+        Log.d("prueba1", ""+ editnombre+""+editapellido+""+editemail);
     }
 
     public void ingresar(View view) {
